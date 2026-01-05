@@ -7,7 +7,8 @@ Ovo je moj lični Web CV, hostan besplatno putem GitHub Pages. Dizajniran je da 
 🎨 Animacije: Glatke "fade-in" animacije pri skrolanju i animirane trake vještina (skill bars).
 🖨️ PDF Export: Dugme za printanje ili spremanje stranice kao PDF.
 🚀 Kako pokrenuti projekt lokalno
-Klonirajte repozitorij:
+Klonirajte repozitorij: https://github.com/budxxx/github.io.git
+
 
 
 Uđite u folder:
