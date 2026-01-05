@@ -1,0 +1,93 @@
+==========================================
+GITHUB PAGES CV - PROŠIRENI .GITIGNORE
+==========================================
+1. OPERATIVNI SISTEMI - PRIVREMENE DATOTEKE
+Ove datoteke kreira sam operativni sistem (Windows ili macOS) kako bi pohranio
+metapodatke o folderima (npr. ikonice ili postavke prikaza).
+Nikada ih ne treba dijeliti sa drugima u repozitoriju.
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+Desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msm
+*.msp
+2. LOGOVI I PRIVREMENI IZVJEŠTAJI
+Aplikacije i serveri često generišu logove za debagovanje.
+Ovi fajlovi se stalno mijenjaju i nepotrebno zatrpavaju historiju verzija.
+.log
+npm-debug.log
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+access.log
+error.log
+3. KOD EDITORI I IDE POSTAVKE
+Svaki programer koristi drugačiji editor (VS Code, IntelliJ, Sublime).
+Postavke vašeg editora su lične i mogu uzrokovati konflikte kod drugih saradnika.
+Visual Studio Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+JetBrains (IntelliJ, WebStorm)
+.idea/
+*.iws
+*.iml
+*.ipr
+Ostali editori
+*.swp
+*.swo
+.project
+.settings/
+.classpath
+.factorypath
+4. NODE.JS / WEB PAKETI I ZAVISNOSTI
+Ako se odlučite koristiti NPM, Yarn ili slične alate za upravljanje bibliotekama,
+'node_modules' folder će postati ogroman. On se uvijek instalira nanovo
+komandom 'npm install' i ne smije biti na GitHubu.
+node_modules/
+jspm_packages/
+.npm
+.eslintcache
+.stylelintcache
+.rpt2_cache/
+.rts2_cache_full/
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+5. BUILD I DISTRIBUTIVNI FOLDERI
+Ako ikada uvedete proces kompajliranja (npr. SASS u CSS ili TypeScript),
+rezultati tog procesa idu u ove foldere. Oni se automatski generišu.
+dist/
+build/
+out/
+.next/
+.nuxt/
+.cache/
+.parcel-cache/
+6. SIGURNOST I TAJNE (ENV)
+Ako u budućnosti uvedete API ključeve ili lozinke (npr. za kontakt formu),
+te informacije stavljate u .env datoteke koje se moraju ignorisati.
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.pem
+*.key
+7. SPECIFIČNO ZA GITHUB PAGES
+Datoteke koje kreiraju lokalni statički generatori (ako se koriste)
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
