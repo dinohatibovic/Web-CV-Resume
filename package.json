@@ -1,0 +1,31 @@
+{
+  "name": "github.io",
+  "version": "3.0.1",
+  "description": "Architecture of Private Ownership // Dino Hatibovic Portfolio",
+  "main": "index.html",
+  "scripts": {
+    "start": "echo \"Stranica je aktivna na github.io\" && exit 0",
+    "deploy": "git add . && git commit -m 'Update portfolio' && git push origin main"
+  },
+  "keywords": [
+    "Architecture of Private Ownership",
+    "Dino Hatibovic",
+    "Google Cloud",
+    "Gemini AI",
+    "SHA-512"
+  ],
+  "author": "Dino Hatibovic <holdin.genesis@gmail.com>",
+  "license": "Private",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/budxxx/github.io.git"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "tailwindcss": "^3.0.0"
+  },
+  "custom_metadata": {
+    "user_id": "018EB3-57C1BB-BD05D1",
+    "verification_hash": "c1a17277a9889617d692a7a4f9e5a556d473489381731a541604c52f534354c4f4d2a138136353d266851f5010640f09f456108152c1e7a00f225e5b6bda9b16"
+  }
+}
