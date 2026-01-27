@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dino Hatibovic | Portfolio & CV</title>
+    <title>Dino Hatibovic | GenAI & Cloud Architect</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Space+Grotesk:wght@300;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
@@ -34,18 +34,16 @@
         ::-webkit-scrollbar { width: 8px; }
         ::-webkit-scrollbar-track { background: #000; }
         ::-webkit-scrollbar-thumb { background: #00ff9d; border-radius: 4px; }
-        
         .text-gradient {
             background: linear-gradient(to right, #fff, #00ff9d);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
         }
         .glass-nav {
-            background: rgba(5, 5, 5, 0.7);
+            background: rgba(5, 5, 5, 0.8);
             backdrop-filter: blur(12px);
             border-bottom: 1px solid rgba(255, 255, 255, 0.05);
         }
-        /* Animation for Hero */
         .fade-in-up { animation: fadeInUp 0.8s ease-out forwards; opacity: 0; transform: translateY(20px); }
         @keyframes fadeInUp { to { opacity: 1; transform: translateY(0); } }
     </style>
@@ -57,197 +55,142 @@
         <a href="#" class="text-2xl font-serif font-bold tracking-tighter hover:text-white transition">
             DINO<span class="text-brand-accent">.DEV</span>
         </a>
-        
         <div class="hidden md:flex space-x-8 text-xs uppercase tracking-[0.2em] font-medium text-gray-400">
-            <a href="#about" class="hover:text-brand-accent transition-colors duration-300">About</a>
-            <a href="#experience" class="hover:text-brand-accent transition-colors duration-300">Experience</a>
-            <a href="#skills" class="hover:text-brand-accent transition-colors duration-300">Skills</a>
-            <a href="#projects" class="hover:text-brand-accent transition-colors duration-300">Showcase</a>
-        </div>
-
-        <div class="md:hidden text-brand-accent text-xl">
-            <i class="fa-solid fa-bars"></i>
+            <a href="#about" class="hover:text-brand-accent transition">About</a>
+            <a href="#experience" class="hover:text-brand-accent transition">Experience</a>
+            <a href="#skills" class="hover:text-brand-accent transition">Skills</a>
+            <a href="#contact" class="hover:text-brand-accent transition">Contact</a>
         </div>
     </nav>
 
     <header class="relative h-screen flex items-center justify-center overflow-hidden border-b border-white/5">
         <div class="absolute top-1/4 left-1/4 w-96 h-96 bg-brand-accent/10 rounded-full blur-[120px] pointer-events-none"></div>
-        
         <div class="relative z-10 text-center px-4 max-w-4xl mx-auto">
-            <p class="text-brand-accent uppercase tracking-[0.4em] text-xs md:text-sm mb-6 fade-in-up" style="animation-delay: 0.1s;">
-                // Cloud • AI • Full Stack //
-            </p>
-            
-            <h1 class="text-5xl md:text-8xl lg:text-9xl font-serif font-bold mb-8 text-gradient fade-in-up" style="animation-delay: 0.2s;">
-                Dino Hatibovic
-            </h1>
-            
+            <p class="text-brand-accent uppercase tracking-[0.4em] text-xs md:text-sm mb-6 fade-in-up" style="animation-delay: 0.1s;">// Cloud • AI • Full Stack //</p>
+            <h1 class="text-5xl md:text-8xl lg:text-9xl font-serif font-bold mb-8 text-gradient fade-in-up" style="animation-delay: 0.2s;">Dino Hatibovic</h1>
             <p class="text-gray-400 text-lg md:text-xl leading-relaxed font-light mb-10 fade-in-up" style="animation-delay: 0.3s;">
-                Google Cloud Developer & Full Stack Engineer focused on building 
-                <span class="text-white font-medium">scalable</span> digital solutions and 
-                <span class="text-brand-accent">AI‑powered systems</span>.
+                Google Cloud Developer & Full Stack Engineer focused on building <span class="text-white font-medium">scalable</span> digital solutions and <span class="text-brand-accent">AI‑powered systems</span>.
             </p>
-            
             <div class="flex flex-col md:flex-row gap-5 justify-center items-center fade-in-up" style="animation-delay: 0.4s;">
-                <a href="#contact" class="px-8 py-4 bg-brand-accent text-black font-bold uppercase text-xs tracking-[0.2em] hover:bg-white transition-all duration-300">
-                    Contact Me
-                </a>
-                <button onclick="window.print()" class="px-8 py-4 border border-white/20 text-white hover:border-brand-accent hover:text-brand-accent transition-all duration-300 uppercase text-xs tracking-[0.2em]">
-                    <i class="fa-solid fa-download mr-2"></i> Save as PDF
-                </button>
+                <a href="#contact" class="px-8 py-4 bg-brand-accent text-black font-bold uppercase text-xs tracking-[0.2em] hover:bg-white transition-all">Contact Me</a>
+                <button onclick="window.print()" class="px-8 py-4 border border-white/20 text-white hover:border-brand-accent hover:text-brand-accent transition-all uppercase text-xs tracking-[0.2em]"><i class="fa-solid fa-download mr-2"></i> Save as PDF</button>
             </div>
         </div>
     </header>
 
- <main class="max-w-7xl mx-auto px-6 py-24 space-y-32">
+    <main class="max-w-7xl mx-auto px-6 py-24 space-y-32">
         
         <section id="about" class="grid md:grid-cols-2 gap-12 items-center">
-            
             <div class="space-y-8 fade-in-up">
                 <div class="inline-block px-3 py-1 border border-brand-accent/30 rounded-full bg-brand-accent/5">
                     <h2 class="text-xs uppercase tracking-[0.2em] text-brand-accent">01. Digital Identity</h2>
                 </div>
-                
                 <div>
                     <h3 class="text-4xl md:text-5xl font-serif font-bold text-white mb-4">GenAI & Cloud Architect</h3>
                     <p class="text-gray-400 text-lg leading-relaxed">
                         I am a GenAI & Cloud Developer focused on building <span class="text-white">scalable, production-grade AI systems</span>. 
-                        My work bridges agentic architectures, cloud-native deployment, and AI security [cite: 79-80].
+                        [cite_start]My work bridges agentic architectures, cloud-native deployment, and AI security [cite: 79-80].
                     </p>
                 </div>
-
-                <div class="prose prose-invert text-gray-500 text-sm">
-                    <p>
-                        Specializing in <strong>Google Cloud Platform (GCP)</strong>, <strong>Python</strong>, and <strong>JavaScript</strong>. 
-                        My guiding principle is simple: <em>"Architecture of Private Ownership."</em> [cite: 155]
-                    </p>
-                </div>
-
                 <div class="flex flex-wrap gap-4">
-                    <a href="https://g.dev/hatibovic" target="_blank" class="flex items-center gap-2 text-white hover:text-brand-accent transition">
-                        <i class="fa-brands fa-google"></i> <span class="text-sm font-bold uppercase tracking-wider">Google Dev</span>
-                    </a>
-                    <a href="https://linkedin.com/in/dino-hatibovic" target="_blank" class="flex items-center gap-2 text-white hover:text-brand-accent transition">
-                        <i class="fa-brands fa-linkedin"></i> <span class="text-sm font-bold uppercase tracking-wider">LinkedIn</span>
-                    </a>
-                    <a href="https://github.com/dinoh582" target="_blank" class="flex items-center gap-2 text-white hover:text-brand-accent transition">
-                        <i class="fa-brands fa-github"></i> <span class="text-sm font-bold uppercase tracking-wider">GitHub</span>
-                    </a>
-                </div>
-
-                <div class="pt-6 border-t border-white/10 grid grid-cols-2 gap-4">
-                    <div>
-                        <span class="block text-xs text-gray-500 uppercase tracking-widest mb-1">Location</span>
-                        <span class="text-white">Tešanj, BiH</span>
-                    </div>
-                    <div>
-                        <span class="block text-xs text-gray-500 uppercase tracking-widest mb-1">Email</span>
-                        <a href="mailto:holdin.genesis@gmail.com" class="text-brand-accent hover:underline">holdin.genesis@gmail.com</a>
-                    </div>
+                    <a href="https://g.dev/hatibovic" target="_blank" class="flex items-center gap-2 text-white hover:text-brand-accent transition"><i class="fa-brands fa-google"></i> <span class="text-sm font-bold uppercase tracking-wider">Google Dev</span></a>
+                    <a href="https://linkedin.com/in/dino-hatibovic" target="_blank" class="flex items-center gap-2 text-white hover:text-brand-accent transition"><i class="fa-brands fa-linkedin"></i> <span class="text-sm font-bold uppercase tracking-wider">LinkedIn</span></a>
+                    <a href="https://github.com/dinoh582" target="_blank" class="flex items-center gap-2 text-white hover:text-brand-accent transition"><i class="fa-brands fa-github"></i> <span class="text-sm font-bold uppercase tracking-wider">GitHub</span></a>
                 </div>
             </div>
 
             <div class="relative group mx-auto w-full max-w-sm fade-in-up" style="animation-delay: 0.2s;">
                 <div class="absolute -inset-2 bg-gradient-to-tr from-brand-accent to-blue-600 rounded-full blur-2xl opacity-20 group-hover:opacity-40 transition duration-1000"></div>
-                
                 <div class="relative rounded-full overflow-hidden border-2 border-white/10 aspect-square shadow-2xl">
-                    <img src="./media/profile.jpg" alt="Dino Hatibovic" class="w-full h-full object-cover transform group-hover:scale-105 transition duration-700">
-                    
-                    <div class="absolute bottom-8 right-8 bg-black/80 backdrop-blur border border-brand-accent/30 px-4 py-2 rounded-lg">
-                        <span class="block text-xs text-gray-400 uppercase">Experience</span>
-                        <span class="text-brand-accent font-bold">5+ Years</span>
-                    </div>
+                    <img src="./media/profile.jpg" onerror="this.src='./media/IMG_20201218_080048.jpg'" alt="Dino Hatibovic" class="w-full h-full object-cover transform group-hover:scale-105 transition duration-700">
                 </div>
             </div>
         </section>
 
-        <section class="w-full bg-white/5 border border-white/10 rounded-2xl p-8 overflow-hidden relative">
-            <div class="absolute top-0 right-0 w-64 h-64 bg-brand-accent/10 rounded-full blur-[80px] -mr-32 -mt-32"></div>
-            
+        <section class="w-full bg-white/5 border border-white/10 rounded-2xl p-8 overflow-hidden relative fade-in-up">
             <div class="grid md:grid-cols-2 gap-8 items-center relative z-10">
                 <div>
                     <span class="text-brand-accent text-xs font-bold uppercase tracking-widest mb-2 block">Latest Achievement</span>
                     <h3 class="text-2xl md:text-3xl font-serif font-bold text-white mb-2">IBM Generative AI Developer</h3>
                     <p class="text-gray-400 mb-6">Issued by IBM Skills Network • Jan 15, 2026</p>
-                    <p class="text-sm text-gray-300 mb-6">
-                        Successfully completed "Develop Generative AI Applications". Mastered LLMs, RAG frameworks, and AI integration using Python.
-                        [cite: 164, 171]
-                    </p>
-                    <a href="https://coursera.org/verify/6MY14ZPBG9IS" target="_blank" class="inline-flex items-center px-6 py-3 bg-brand-accent text-black font-bold uppercase text-xs tracking-widest hover:bg-white transition rounded">
-                        Verify Credential <i class="fa-solid fa-arrow-up-right-from-square ml-2"></i>
-                    </a>
+                    <a href="https://coursera.org/verify/6MY14ZPBG9IS" target="_blank" class="inline-flex items-center px-6 py-3 bg-brand-accent text-black font-bold uppercase text-xs tracking-widest hover:bg-white transition rounded">Verify Credential <i class="fa-solid fa-arrow-up-right-from-square ml-2"></i></a>
                 </div>
-                
-                <div class="aspect-video rounded-xl overflow-hidden bg-black/50 border border-white/10 flex items-center justify-center relative group">
-                    <div class="text-center p-8">
-                        <i class="fa-solid fa-certificate text-6xl text-brand-accent mb-4 group-hover:scale-110 transition"></i>
-                        <h4 class="text-white text-xl font-serif">IBM Certificate</h4>
-                        <p class="text-gray-500 text-sm mt-2">ID: 6MY14ZPBG9IS</p>
-                    </div>
+                <div class="aspect-video rounded-xl overflow-hidden bg-black/50 border border-white/10 flex items-center justify-center">
+                    <video src="./media/Prompt_za_AI_video_s_glasom.mp4" controls class="w-full h-full object-cover"></video>
                 </div>
             </div>
         </section>
 
-        <section id="experience">
+        <section id="experience" class="fade-in-up">
             <div class="flex flex-col items-center mb-16 text-center">
                 <div class="inline-block px-3 py-1 border border-brand-accent/30 rounded-full bg-brand-accent/5 mb-4">
-                    <h2 class="text-xs uppercase tracking-[0.2em] text-brand-accent">02. Career & Projects</h2>
+                    <h2 class="text-xs uppercase tracking-[0.2em] text-brand-accent">02. Career Timeline</h2>
                 </div>
-                <h3 class="text-3xl md:text-5xl font-serif font-bold text-white">Experience Timeline</h3>
+                <h3 class="text-3xl md:text-5xl font-serif font-bold text-white">Project & Work History</h3>
             </div>
-
+            
             <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-16">
-                <div class="p-8 rounded-2xl bg-gradient-to-br from-white/5 to-transparent border border-white/10 hover:border-brand-accent transition group">
+                <div class="p-8 rounded-2xl bg-gradient-to-br from-white/5 to-transparent border border-white/10 hover:border-brand-accent transition">
                     <h5 class="text-2xl font-bold text-white mb-2">Human–AI Coevolution</h5>
                     <p class="text-brand-accent text-sm mb-4">Lead Architect</p>
-                    <p class="text-gray-400 leading-relaxed mb-6">Orchestrating specialized AI agents for autonomous problem-solving using Python & Gemini API.</p>
-                    <div class="flex flex-wrap gap-2">
-                        <span class="px-2 py-1 text-xs border border-white/20 rounded text-gray-300">Python</span>
-                        <span class="px-2 py-1 text-xs border border-white/20 rounded text-gray-300">GCP</span>
-                    </div>
+                    [cite_start]<p class="text-gray-400 text-sm mb-6">Orchestrating specialized AI agents for autonomous problem-solving using Python & Gemini API [cite: 125-129].</p>
+                    <div class="flex gap-2"><span class="px-2 py-1 text-xs border border-white/20 rounded text-gray-300">Python</span><span class="px-2 py-1 text-xs border border-white/20 rounded text-gray-300">GCP</span></div>
                 </div>
-                
-                <div class="p-8 rounded-2xl bg-gradient-to-br from-white/5 to-transparent border border-white/10 hover:border-brand-accent transition group">
+                <div class="p-8 rounded-2xl bg-gradient-to-br from-white/5 to-transparent border border-white/10 hover:border-brand-accent transition">
                     <h5 class="text-2xl font-bold text-white mb-2">Android Navigation</h5>
                     <p class="text-brand-accent text-sm mb-4">Tech Lead</p>
-                    <p class="text-gray-400 leading-relaxed mb-6">Built a navigation system for car radio devices using Google Maps SDK and offline-first logic.</p>
-                    <div class="flex flex-wrap gap-2">
-                        <span class="px-2 py-1 text-xs border border-white/20 rounded text-gray-300">Android</span>
-                        <span class="px-2 py-1 text-xs border border-white/20 rounded text-gray-300">Google Maps</span>
-                    </div>
+                    [cite_start]<p class="text-gray-400 text-sm mb-6">Built a navigation system for car radio devices using Google Maps SDK and offline-first logic [cite: 130-134].</p>
+                    <div class="flex gap-2"><span class="px-2 py-1 text-xs border border-white/20 rounded text-gray-300">Android</span><span class="px-2 py-1 text-xs border border-white/20 rounded text-gray-300">Java</span></div>
                 </div>
             </div>
 
             <div class="space-y-4 max-w-3xl mx-auto">
                 <h4 class="text-white font-serif text-xl mb-6 border-b border-white/10 pb-2">Employment History</h4>
-                
                 <div class="flex justify-between items-center p-4 rounded-lg bg-white/5 hover:bg-white/10 transition">
-                    <div>
-                        <h5 class="text-white font-bold">Piramida d.o.o</h5>
-                        <p class="text-gray-500 text-sm">Waiter • 2022-2025</p>
-                    </div>
-                    <span class="text-brand-accent text-sm"><i class="fa-solid fa-location-dot"></i> Jelah</span>
+                    <div><h5 class="text-white font-bold">Piramida d.o.o</h5><p class="text-gray-500 text-sm">Waiter • 2022-2025</p></div><span class="text-brand-accent text-sm">Jelah</span>
                 </div>
-
                 <div class="flex justify-between items-center p-4 rounded-lg bg-white/5 hover:bg-white/10 transition">
-                    <div>
-                        <h5 class="text-white font-bold">Danial S</h5>
-                        <p class="text-gray-500 text-sm">Warehouse Worker • 2022</p>
-                    </div>
-                    <span class="text-brand-accent text-sm"><i class="fa-solid fa-location-dot"></i> Tešanj</span>
+                    <div><h5 class="text-white font-bold">Danial S</h5><p class="text-gray-500 text-sm">Warehouse Worker • 2022</p></div><span class="text-brand-accent text-sm">Tešanj</span>
                 </div>
-                
                 <div class="flex justify-between items-center p-4 rounded-lg bg-white/5 hover:bg-white/10 transition">
-                    <div>
-                        <h5 class="text-white font-bold">Rapidex d.o.o</h5>
-                        <p class="text-gray-500 text-sm">Sales Associate • 2021-2022</p>
-                    </div>
-                    <span class="text-brand-accent text-sm"><i class="fa-solid fa-location-dot"></i> Doboj</span>
+                    <div><h5 class="text-white font-bold">Rapidex d.o.o</h5><p class="text-gray-500 text-sm">Sales Associate • 2021-2022</p></div><span class="text-brand-accent text-sm">Doboj</span>
                 </div>
             </div>
         </section>
 
+        <section id="skills" class="fade-in-up">
+            <div class="flex flex-col items-center mb-16 text-center">
+                <div class="inline-block px-3 py-1 border border-brand-accent/30 rounded-full bg-brand-accent/5 mb-4"><h2 class="text-xs uppercase tracking-[0.2em] text-brand-accent">03. Expertise</h2></div>
+                <h3 class="text-3xl md:text-5xl font-serif font-bold text-white">Technical Arsenal</h3>
+            </div>
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-4 text-center">
+                <div class="p-6 bg-white/5 rounded-xl border border-white/10 hover:border-brand-accent transition"><i class="fa-brands fa-python text-4xl text-brand-accent mb-4"></i><h4 class="text-white font-bold">Python</h4></div>
+                <div class="p-6 bg-white/5 rounded-xl border border-white/10 hover:border-brand-accent transition"><i class="fa-brands fa-js text-4xl text-brand-accent mb-4"></i><h4 class="text-white font-bold">JavaScript</h4></div>
+                <div class="p-6 bg-white/5 rounded-xl border border-white/10 hover:border-brand-accent transition"><i class="fa-brands fa-google text-4xl text-brand-accent mb-4"></i><h4 class="text-white font-bold">Google Cloud</h4></div>
+                <div class="p-6 bg-white/5 rounded-xl border border-white/10 hover:border-brand-accent transition"><i class="fa-solid fa-brain text-4xl text-brand-accent mb-4"></i><h4 class="text-white font-bold">AI / LLM</h4></div>
+            </div>
+        </section>
+        
+        <section class="max-w-3xl mx-auto fade-in-up">
+             <h4 class="text-white font-serif text-xl mb-6 border-b border-white/10 pb-2">Education</h4>
+             <div class="p-6 rounded-lg bg-white/5 border border-white/10">
+                <h5 class="text-white font-bold text-lg">Mechanical Technician</h5>
+                <p class="text-brand-accent">Technical High School Tešanj</p>
+                <p class="text-gray-500 text-sm mt-1">2007 – 2012</p>
+             </div>
+        </section>
+
     </main>
+
+    <footer id="contact" class="py-20 border-t border-white/10 mt-32 bg-black/50 text-center">
+        <h2 class="text-3xl md:text-5xl font-serif text-white mb-8">Ready to build the future?</h2>
+        <div class="flex justify-center gap-8 mb-8">
+            <a href="mailto:holdin.genesis@gmail.com" class="text-3xl text-gray-400 hover:text-brand-accent transition"><i class="fa-solid fa-envelope"></i></a>
+            <a href="https://linkedin.com/in/dino-hatibovic" class="text-3xl text-gray-400 hover:text-brand-accent transition"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://github.com/dinoh582" class="text-3xl text-gray-400 hover:text-brand-accent transition"><i class="fa-brands fa-github"></i></a>
+        </div>
+        <p class="text-gray-600 text-sm">&copy; 2026 Dino Hatibovic. Architecture of Private Ownership.</p>
+    </footer>
 
 </body>
 </html>
