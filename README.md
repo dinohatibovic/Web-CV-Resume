@@ -2,7 +2,7 @@
 
 Personal web CV and portfolio for Dino Hatibovic.
 
-This is a static HTML portfolio built with Tailwind CSS, custom styling, local media assets, and a printable CV action.
+This is a static HTML portfolio built with Tailwind CSS, custom styling, local media assets, a top profile image, and a certificate preview image linked to Coursera verification.
 
 ## Local preview
 
@@ -15,9 +15,17 @@ Then open `index.html` through the local server.
 ## Main files
 
 - `index.html` - main portfolio page
-- `media/` - profile image and certificate video
+- `media/hero-profile-photo.jpg` - top hero profile photo
+- `media/profile.jpg.png` - secondary profile/CV image
+- `media/ibm-coursera-certificate.jpg` - Coursera/IBM certificate preview image
 - `package.json` - project metadata
 - `LICENSE` - software license
+
+## Certificate verification
+
+The IBM/Coursera certificate preview links to:
+
+https://www.coursera.org/account/accomplishments/verify/6MY14ZPBG9IS
 
 ## Notes
 
