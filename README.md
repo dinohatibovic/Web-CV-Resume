@@ -1,38 +1,32 @@
-⚡ Dino Hatibovic| Visual Narrative & Tech CV
+# Web CV Resume
 
-Ovo je unaprijeđena verzija mog ličnog Web CV-a, dizajnirana sa **Cyber-Premium** estetikom. Spaja futuristički "Cyberpunk" stil sa elegantnom tipografijom, koristeći napredne CSS tehnike poput *glassmorphism-a* i neon animacija.
+Personal web CV and portfolio for Dino Hatibovic.
 
-## ✨ Glavne Karakteristike
-*   **Cyber-Premium Dizajn:** Kombinacija `Playfair Display` elegancije i neon akcenata.
-*   **Glassmorphism:** Kartice sa efektom zamućenog stakla i dinamičnim bordurama.
-*   **Video Showcase:** Posebna sekcija za demo videe tvojih projekata.
-*   **Responsive & Fast:** Optimizovan za mobitele, baziran na Tailwind CSS-u.
-*   **PDF Export:** Integrisana funkcija za čuvanje stranice kao dokumenta.
+This is a static HTML portfolio built with Tailwind CSS, custom styling, local media assets, a top profile image, and a certificate preview image linked to Coursera verification.
 
-## 🚀 Kako pokrenuti projekt lokalno
-1. Klonirajte repozitorij:
-   ```bash
-   git clone https://github.com/dinohatibovic/Web-CV-Resume.git
-   ```
-2. Uđite u folder:
-   ```bash
-   cd Web-CV-Resume
-   ```
-3. Otvorite `index.html` u browseru.
+## Local preview
 
-## 🛠️ Prilagođavanje (Update podataka)
-Otvorite `index.html` i potražite sljedeće komentare:
-*   `<!-- Hero Section -->`: Promijeni ime i titulu.
-*   `<!-- About Section -->`: Ubaci svoju sliku profila.
-*   `<!-- Experience Section -->`: Dodaj ili izmijeni radno iskustvo.
-*   `<!-- Video Showcase -->`: Ubaci linkove do svojih video radova.
+~~~bash
+python3 -m http.server 8000
+~~~
 
-## 🌐 Tehnologije
-*   **HTML5 / Tailwind CSS**
-*   **Fontovi:** Space Grotesk (Tech) & Playfair Display (Luxury)
-*   **Ikonice:** Font Awesome 6
-*   **Logic:** Intersection Observer API za animacije pri skrolanju.
+Then open `index.html` through the local server.
 
-## 📄 Licenca
-Projekt je licenciran pod [MIT Licencom](LICENSE).
-```
+## Main files
+
+- `index.html` - main portfolio page
+- `media/hero-profile-photo.jpg` - top hero profile photo
+- `media/profile.jpg.png` - secondary profile/CV image
+- `media/ibm-coursera-certificate.jpg` - Coursera/IBM certificate preview image
+- `package.json` - project metadata
+- `LICENSE` - software license
+
+## Certificate verification
+
+The IBM/Coursera certificate preview links to:
+
+https://www.coursera.org/account/accomplishments/verify/6MY14ZPBG9IS
+
+## Notes
+
+This repository contains personal portfolio content. The code is licensed under MIT, but personal text, photographs, certificates, and media assets are not reusable as another person's identity or CV.

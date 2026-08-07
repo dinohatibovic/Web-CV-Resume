@@ -1,37 +1,20 @@
 MIT License
-Copyright (c) 2024 budxxx
+
+Copyright (c) 2026 Dino Hatibovic
+
 Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+of this software and associated documentation files, to deal in the software
+without restriction, including without limitation the rights to use, copy,
+modify, merge, publish, distribute, sublicense, and/or sell copies of the
+software, subject to the following conditions:
+
 The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+copies or substantial portions of the software.
+
+Personal content in this repository, including biography text, work history,
+contact details, photographs, certificates, and media assets, is not granted
+for reuse as a personal identity or portfolio.
+
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
-ADDITIONAL CONTEXT AND USAGE GUIDELINES
-The text above constitutes the official legal license for this project. To provide clarity and context for users, recruiters, and fellow developers who may wish to utilize this Web CV repository, the following points elaborate on the permissions, implications, and distinctions regarding the content herein.
-DISTINCTION BETWEEN CODE AND PERSONAL CONTENT
-While this project is open-source under the MIT License, a crucial distinction must be made between the "Software" (the HTML structure, CSS styling, JavaScript logic, and build configurations) and the "Content" (personal biography, work history, phone numbers, email addresses, and photographs).
-You are explicitly encouraged to copy the code structure to build your own CV.
-You should NOT copy the personal data, work history, or identity represented in the text content. Using the author's personal details as your own may constitute identity fraud and is not covered by the spirit of this open-source grant.
-FREEDOM TO MODIFY AND ADAPT
-The permission to "deal in the Software without restriction" means you have complete creative control over any fork you create.
-You may completely overhaul the color scheme (e.g., changing Tailwind configuration).
-You may strip out the JavaScript animations if you prefer a static site.
-You may convert this static HTML site into a React, Vue, or Angular application.
-You may use this template for commercial purposes, such as building a portfolio site for a paying client, without owing royalties to the original author.
-ATTRIBUTION REQUIREMENTS
-The condition that "The above copyright notice and this permission notice shall be included" implies that you must retain the license file in your version of the project. However, you are not required to display the original author's name on the visible frontend of your website. The attribution is primarily intended for the source code level to acknowledge the origin of the template structure.
-LIABILITY AND WARRANTY DISCLAIMER ("AS IS")
-The section stating the software is provided "AS IS" is a comprehensive disclaimer of liability.
-Technical Usage: The author guarantees no specific uptime, browser compatibility beyond what is currently implemented, or fitness for a particular hosting environment.
-Professional Outcome: The author accepts no responsibility for the professional outcomes resulting from the use of this CV template. Using this template does not guarantee job interviews, employment offers, or professional success.
-Data Security: While the code is written to be safe, the author is not liable for any security vulnerabilities that may arise from your specific deployment or modification of the code.
-By using this repository, you acknowledge understanding these distinctions. The goal of this open-source release is to help others showcase their careers, not to provide a false identity or assume liability for third-party usage.
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
